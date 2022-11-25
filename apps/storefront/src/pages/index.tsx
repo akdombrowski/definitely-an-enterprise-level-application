@@ -1,6 +1,6 @@
 import { log } from "logger";
 import Head from "next/head";
-import { CounterButton, NewTabLink } from "ui";
+import { CounterButton, NewTabLink, SignOnPage } from "ui";
 
 export default function Store() {
   log("Hey! This is Home.");
@@ -13,6 +13,7 @@ export default function Store() {
         Store <br />
         <span>Kitchen Sink</span>
       </h1>
+      <SignOnPage />
       <CounterButton />
       <p className="description">
         Built With{" "}
